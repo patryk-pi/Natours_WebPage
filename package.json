@@ -1,22 +1,13 @@
 {
-  "name": "natours",
-  "version": "1.0.0",
-  "description": "Landing page for natours",
-  "main": "index.js",
+  "name": "sass",
+  "version": "2.0.0",
+  "source": "index.html",
   "scripts": {
-    "compile:scss": "node-sass scss/main.scss css/style.css -w"
+    "start": "parcel",
+    "build": "parcel build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/patryk-pi/Natours_WebPage.git"
-  },
-  "author": "Patryk",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/patryk-pi/Natours_WebPage/issues"
-  },
-  "homepage": "https://github.com/patryk-pi/Natours_WebPage#readme",
   "devDependencies": {
-    "node-sass": "^8.0.0"
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
   }
 }
